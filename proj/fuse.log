@@ -1,18 +1,16 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o Z:/projects/verilog/proj_201840840_06/proj/timer_isim_beh.exe -prj Z:/projects/verilog/proj_201840840_06/proj/timer_beh.prj work.timer work.glbl 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/samia/Desktop/C0E203/proj_201840840_06/proj/timer_isim_beh.exe -prj C:/Users/samia/Desktop/C0E203/proj_201840840_06/proj/timer_beh.prj work.timer work.glbl 
 ISim P.20131013 (signature 0x7708f090)
-Number of CPUs detected in this system: 2
-Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Analyzing Verilog file "Z:/projects/verilog/proj_201840840_06/proj/onehz.v" into library work
-Analyzing Verilog file "Z:/projects/verilog/proj_201840840_06/proj/mod10.v" into library work
-Analyzing Verilog file "Z:/projects/verilog/proj_201840840_06/proj/mod06.v" into library work
-Analyzing Verilog file "Z:/projects/verilog/proj_201840840_06/proj/DownCounter.v" into library work
-Analyzing Verilog file "Z:/projects/verilog/proj_201840840_06/proj/DISP7SEG.v" into library work
-Analyzing Verilog file "Z:/projects/verilog/proj_201840840_06/proj/timer.v" into library work
+Analyzing Verilog file "C:/Users/samia/Desktop/C0E203/proj_201840840_06/proj/onehz.v" into library work
+Analyzing Verilog file "C:/Users/samia/Desktop/C0E203/proj_201840840_06/proj/mod10.v" into library work
+Analyzing Verilog file "C:/Users/samia/Desktop/C0E203/proj_201840840_06/proj/mod06.v" into library work
+Analyzing Verilog file "C:/Users/samia/Desktop/C0E203/proj_201840840_06/proj/DownCounter.v" into library work
+Analyzing Verilog file "C:/Users/samia/Desktop/C0E203/proj_201840840_06/proj/DISP7SEG.v" into library work
+Analyzing Verilog file "C:/Users/samia/Desktop/C0E203/proj_201840840_06/proj/timer.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
-WARNING:HDLCompiler:189 - "Z:/projects/verilog/proj_201840840_06/proj/timer.v" Line 22: Size mismatch in connection of port <data>. Formal port size is 4-bit while actual signal size is 1-bit.
-WARNING:HDLCompiler:189 - "Z:/projects/verilog/proj_201840840_06/proj/timer.v" Line 21: Size mismatch in connection of port <data>. Formal port size is 4-bit while actual signal size is 1-bit.
 Completed static elaboration
 Compiling module mod10
 Compiling module mod06
@@ -27,9 +25,9 @@ Compiling module onehz
 Compiling module timer
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
+Waiting for 5 sub-compilation(s) to finish...
 WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\timer_isim_beh.exe.sim\libPortability.dll".
 Compiled 12 Verilog Units
-Built simulation executable Z:/projects/verilog/proj_201840840_06/proj/timer_isim_beh.exe
-Fuse Memory Usage: 27608 KB
-Fuse CPU Usage: 577 ms
+Built simulation executable C:/Users/samia/Desktop/C0E203/proj_201840840_06/proj/timer_isim_beh.exe
+Fuse Memory Usage: 28104 KB
+Fuse CPU Usage: 639 ms

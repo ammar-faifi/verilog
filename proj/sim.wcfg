@@ -3,62 +3,73 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="Z:/projects/verilog/proj_201840840_06/proj/timer_isim_beh.wdb" id="1" type="auto">
+      <db_ref path="C:/Users/samia/Desktop/C0E203/proj_201840840_06/proj/timer_isim_beh.wdb" id="1" type="auto">
          <top_modules>
             <top_module name="glbl" />
             <top_module name="timer" />
          </top_modules>
       </db_ref>
    </db_ref_list>
-   <WVObjectSize size="29" />
+   <WVObjectSize size="32" />
    <wvobject fp_name="/timer/clk" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
    </wvobject>
    <wvobject fp_name="/timer/reset" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
       <obj_property name="ElementShortName">reset</obj_property>
       <obj_property name="ObjectShortName">reset</obj_property>
+      <obj_property name="label">reset</obj_property>
    </wvobject>
    <wvobject fp_name="/timer/load" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
       <obj_property name="ElementShortName">load</obj_property>
       <obj_property name="ObjectShortName">load</obj_property>
+      <obj_property name="label">load</obj_property>
    </wvobject>
    <wvobject fp_name="/timer/CE" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">CE</obj_property>
       <obj_property name="ObjectShortName">CE</obj_property>
    </wvobject>
-   <wvobject fp_name="/timer/I1" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">I1[3:0]</obj_property>
-      <obj_property name="ObjectShortName">I1[3:0]</obj_property>
+   <wvobject fp_name="/timer/I3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">I3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">I3[3:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/timer/I0" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">I0[3:0]</obj_property>
-      <obj_property name="ObjectShortName">I0[3:0]</obj_property>
+   <wvobject fp_name="/timer/I2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">I2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">I2[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/timer/S2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S2[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/timer/S3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S3[3:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/timer/LED" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">LED</obj_property>
       <obj_property name="ObjectShortName">LED</obj_property>
    </wvobject>
+   <wvobject fp_name="/timer/ErrorLED" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ErrorLED</obj_property>
+      <obj_property name="ObjectShortName">ErrorLED</obj_property>
+   </wvobject>
    <wvobject fp_name="/timer/seg" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">seg[7:0]</obj_property>
       <obj_property name="ObjectShortName">seg[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/timer/an" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">an[3:0]</obj_property>
       <obj_property name="ObjectShortName">an[3:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/timer/D3" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">D3[3:0]</obj_property>
-      <obj_property name="ObjectShortName">D3[3:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/timer/D2" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">D2[3:0]</obj_property>
-      <obj_property name="ObjectShortName">D2[3:0]</obj_property>
+   <wvobject fp_name="/timer/D0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D0[3:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/timer/D1" type="array" db_ref_id="1">
@@ -66,10 +77,19 @@
       <obj_property name="ObjectShortName">D1[3:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/timer/D0" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">D0[3:0]</obj_property>
-      <obj_property name="ObjectShortName">D0[3:0]</obj_property>
+   <wvobject fp_name="/timer/D2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D2[3:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/timer/D3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D3[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/timer/counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counter[26:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[26:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/timer/CEO" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">CEO</obj_property>
@@ -87,25 +107,25 @@
       <obj_property name="ElementShortName">CEO3</obj_property>
       <obj_property name="ObjectShortName">CEO3</obj_property>
    </wvobject>
-   <wvobject fp_name="/timer/zero1" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">zero1</obj_property>
-      <obj_property name="ObjectShortName">zero1</obj_property>
+   <wvobject fp_name="/timer/zero3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">zero3</obj_property>
+      <obj_property name="ObjectShortName">zero3</obj_property>
    </wvobject>
-   <wvobject fp_name="/timer/zero0" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">zero0</obj_property>
-      <obj_property name="ObjectShortName">zero0</obj_property>
+   <wvobject fp_name="/timer/zero2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">zero2</obj_property>
+      <obj_property name="ObjectShortName">zero2</obj_property>
    </wvobject>
    <wvobject fp_name="/timer/clk_1hz" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">clk_1hz</obj_property>
       <obj_property name="ObjectShortName">clk_1hz</obj_property>
    </wvobject>
-   <wvobject fp_name="/timer/S0" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">S0</obj_property>
-      <obj_property name="ObjectShortName">S0</obj_property>
+   <wvobject fp_name="/timer/Error1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Error1</obj_property>
+      <obj_property name="ObjectShortName">Error1</obj_property>
    </wvobject>
-   <wvobject fp_name="/timer/S1" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">S1</obj_property>
-      <obj_property name="ObjectShortName">S1</obj_property>
+   <wvobject fp_name="/timer/Error2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Error2</obj_property>
+      <obj_property name="ObjectShortName">Error2</obj_property>
    </wvobject>
    <wvobject fp_name="/timer/text_mode" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">text_mode</obj_property>
@@ -130,10 +150,5 @@
    <wvobject fp_name="/timer/wrong" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">wrong</obj_property>
       <obj_property name="ObjectShortName">wrong</obj_property>
-   </wvobject>
-   <wvobject fp_name="/timer/counter" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">counter[26:0]</obj_property>
-      <obj_property name="ObjectShortName">counter[26:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
 </wave_config>

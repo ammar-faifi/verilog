@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-12-02T21:01:33</DateModified>
+  <DateModified>2020-12-02T22:50:40</DateModified>
   <ModuleName>timer</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>Z:/projects/verilog/proj_201840840_06/proj/iseconfig/timer.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>Z:/projects/verilog/proj_201840840_06/proj\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/samia/Desktop/C0E203/proj_201840840_06/proj/iseconfig/timer.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/samia/Desktop/C0E203/proj_201840840_06/proj\</ImplementationReportsDirectory>
   <DateInitialized>2020-11-27T15:58:28</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
