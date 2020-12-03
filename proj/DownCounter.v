@@ -11,18 +11,18 @@ module DownCounter(input clk, reset, load, CE, [3:0] data, output CEO, reg error
 	
 	always @(posedge clk)
 		begin
-			if (data > 4'b1001)
-			begin
-				error <= 1;
+			if (data > 4'b1001)begin
+				error = 1;
 				count <= 4'b0000;
 			end
-			else if (load)
+			else if (load) begin
 				count <= data;
-			else if (reset || CEO)
-			begin
-				count <= 9;
 				error = 0;
 			end
+
+			else if (reset || CEO)
+				count <= 9;
+			
 			else if (CE)
 				count <= count - 1;
 		end

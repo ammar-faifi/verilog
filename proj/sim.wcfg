@@ -3,7 +3,7 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="C:/Users/samia/Desktop/C0E203/proj_201840840_06/proj/timer_isim_beh.wdb" id="1" type="auto">
+      <db_ref path="Z:/projects/verilog/proj_201840840_06/proj/timer_isim_beh.wdb" id="1" type="auto">
          <top_modules>
             <top_module name="glbl" />
             <top_module name="timer" />
@@ -59,22 +59,9 @@
       <obj_property name="ElementShortName">ErrorLED</obj_property>
       <obj_property name="ObjectShortName">ErrorLED</obj_property>
    </wvobject>
-   <wvobject fp_name="/timer/seg" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">seg[7:0]</obj_property>
-      <obj_property name="ObjectShortName">seg[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/timer/an" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">an[3:0]</obj_property>
-      <obj_property name="ObjectShortName">an[3:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/timer/D0" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">D0[3:0]</obj_property>
-      <obj_property name="ObjectShortName">D0[3:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/timer/D1" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">D1[3:0]</obj_property>
-      <obj_property name="ObjectShortName">D1[3:0]</obj_property>
+   <wvobject fp_name="/timer/D3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D3[3:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/timer/D2" type="array" db_ref_id="1">
@@ -82,10 +69,23 @@
       <obj_property name="ObjectShortName">D2[3:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/timer/D3" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">D3[3:0]</obj_property>
-      <obj_property name="ObjectShortName">D3[3:0]</obj_property>
+   <wvobject fp_name="/timer/D1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D1[3:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/timer/D0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D0[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/timer/an" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">an[3:0]</obj_property>
+      <obj_property name="ObjectShortName">an[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/timer/seg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">seg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">seg[7:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/timer/counter" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">counter[26:0]</obj_property>
