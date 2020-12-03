@@ -730,9 +730,9 @@ LAB20:    memcpy(t3, t35, 8);
 }
 
 
-extern void work_m_00000000001312688026_1678943863_init()
+extern void work_m_00000000003952899618_1678943863_init()
 {
 	static char *pe[] = {(void *)Cont_11_0,(void *)Cont_13_1,(void *)Cont_14_2};
-	xsi_register_didat("work_m_00000000001312688026_1678943863", "isim/timer_isim_beh.exe.sim/work/m_00000000001312688026_1678943863.didat");
+	xsi_register_didat("work_m_00000000003952899618_1678943863", "isim/timer_isim_beh.exe.sim/work/m_00000000003952899618_1678943863.didat");
 	xsi_register_executes(pe);
 }
