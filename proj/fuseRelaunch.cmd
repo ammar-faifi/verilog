@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "Z:/projects/verilog/proj_201840840_06/proj/timer_isim_beh.exe" -prj "Z:/projects/verilog/proj_201840840_06/proj/timer_beh.prj" "work.timer" "work.glbl" 
