@@ -33,7 +33,7 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1606938509" xil_pn:in_ck="-807325324849103038" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1606938509">
+    <transform xil_pn:end_ts="1606988862" xil_pn:in_ck="-807325324849103038" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1606988862">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="DISP7SEG.v"/>
@@ -55,7 +55,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1606938509" xil_pn:in_ck="-807325324849103038" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1606938509">
+    <transform xil_pn:end_ts="1606988862" xil_pn:in_ck="-807325324849103038" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1606988862">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="DISP7SEG.v"/>
@@ -65,11 +65,9 @@
       <outfile xil_pn:name="onehz.v"/>
       <outfile xil_pn:name="timer.v"/>
     </transform>
-    <transform xil_pn:end_ts="1606938513" xil_pn:in_ck="-807325324849103038" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2286605230079663151" xil_pn:start_ts="1606938509">
+    <transform xil_pn:end_ts="1606988867" xil_pn:in_ck="-807325324849103038" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2286605230079663151" xil_pn:start_ts="1606988862">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
@@ -77,7 +75,7 @@
       <outfile xil_pn:name="timer_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1606938700" xil_pn:in_ck="-7298044979952068336" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3609691740853922098" xil_pn:start_ts="1606938699">
+    <transform xil_pn:end_ts="1606988867" xil_pn:in_ck="-7298044979952068336" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3609691740853922098" xil_pn:start_ts="1606988867">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="isim.cmd"/>

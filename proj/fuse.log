@@ -11,6 +11,8 @@ Analyzing Verilog file "Z:/projects/verilog/proj_201840840_06/proj/DISP7SEG.v" i
 Analyzing Verilog file "Z:/projects/verilog/proj_201840840_06/proj/timer.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
+WARNING:HDLCompiler:189 - "Z:/projects/verilog/proj_201840840_06/proj/timer.v" Line 22: Size mismatch in connection of port <data>. Formal port size is 4-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "Z:/projects/verilog/proj_201840840_06/proj/timer.v" Line 21: Size mismatch in connection of port <data>. Formal port size is 4-bit while actual signal size is 1-bit.
 Completed static elaboration
 Compiling module mod10
 Compiling module mod06
@@ -29,4 +31,4 @@ WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation exec
 Compiled 12 Verilog Units
 Built simulation executable Z:/projects/verilog/proj_201840840_06/proj/timer_isim_beh.exe
 Fuse Memory Usage: 28324 KB
-Fuse CPU Usage: 593 ms
+Fuse CPU Usage: 781 ms

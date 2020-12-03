@@ -2,19 +2,11 @@ ISim log file
 Running: Z:\projects\verilog\proj_201840840_06\proj\timer_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb Z:/projects/verilog/proj_201840840_06/proj/timer_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 This is a Full version of ISim.
+WARNING: File "//Mac/Home/projects/verilog/proj_201840840_06/proj/timer.v" Line 13.  For instance timer/m0/, width 4 of formal port data is not equal to width 1 of actual signal S0.
+WARNING: File "//Mac/Home/projects/verilog/proj_201840840_06/proj/timer.v" Line 14.  For instance timer/m1/, width 4 of formal port data is not equal to width 1 of actual signal S1.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-# isim force add /timer/clk 0 -radix bin -value 1 -radix bin -time 500 ps -repeat 1 ns
-# isim force add /timer/reset 1 -radix bin -cancel 1 ns
-# isim force add /timer/load 1 -radix bin -cancel 2 ns
-# isim force add /timer/CE 1 -radix bin
-# isim force add /timer/I1 2 -radix unsigned
-# show driver /timer/I0
-/timer/I0 has no drivers.
-# isim force add /timer/I0 0 -radix unsigned
-# run 1.00us
-Stopped at time : 1059500 ps : File "//Mac/Home/projects/verilog/proj_201840840_06/proj/mod10.v" Line 6
