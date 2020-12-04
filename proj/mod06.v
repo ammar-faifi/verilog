@@ -2,12 +2,12 @@
 //////////////////////////////////////////////////////////////////////////////////
 //This module is used to count from 5-0 for the second digit of the seconds. 
 //////////////////////////////////////////////////////////////////////////////////
-module mod06 (input clk, reset, CE, LED, output reg [3:0] counter, output CEO);
+module mod06 (input clk, reset, CE, STOP, output reg [3:0] counter, output CEO);
 
 	assign CEO = (counter == 0) && CE;
 
 	always @(posedge clk) begin
-		if(LED)
+		if(STOP)
 			counter <= 0;
 		else if (reset || CEO)
 			counter <= 5;

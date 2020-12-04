@@ -11,7 +11,13 @@
 <msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/DownCounter.v&quot; into library work</arg>
 </msg>
 
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/mod06.v&quot; into library work</arg>
+</msg>
+
 <msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/mod10.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/timer.v&quot; into library work</arg>
 </msg>
 
 </messages>

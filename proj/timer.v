@@ -12,13 +12,13 @@ module timer(input clk, reset, load, CE, [3:0] I1, I0, output LED, ErrorLED, [7:
 	assign S2 = (&(~I0))? ( |I1? 4'b1001 : 0) : (I0-1);
 	assign S3 = (&(~I0))? (I1-1) : I1;
 	assign ErrorLED = Error1 | Error2;
-	assign STOP = LED | ErrorLED;
+	assign STOP = (LED | ErrorLED) & ~reset;
 	
-	//seconds, with no inputs
+	//seconds, with no data inputs
 	mod10 s0 (clk, reset, CE, STOP, D0, CEO1);
 	mod06 s1 (clk, reset, CEO1, STOP, D1, CEO2);
 	
-	//minuites, it can take an inputs 
+	//minuites, it can take data inputs 
 	DownCounter m0 (clk, reset, load, CEO2, S2, STOP, CEO3, Error1, D2);
 	DownCounter m1 (clk, reset, load, CEO3, S3  ,STOP, LED, Error2, D3);
 
