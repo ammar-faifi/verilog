@@ -1,0 +1,361 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> Reading design: timer.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "timer.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "timer"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : timer
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\onehz.v" into library work
+Parsing module <onehz>.
+Analyzing Verilog file "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\mod10.v" into library work
+Parsing module <mod10>.
+Analyzing Verilog file "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\mod06.v" into library work
+Parsing module <mod06>.
+Analyzing Verilog file "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\DownCounter.v" into library work
+Parsing module <DownCounter>.
+Analyzing Verilog file "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\DISP7SEG.v" into library work
+Parsing module <DISP7SEG>.
+Parsing module <bcd7seg>.
+Parsing module <slowclock>.
+Parsing module <my_counter>.
+Parsing module <mux4to1>.
+Parsing module <decoder2to4>.
+Analyzing Verilog file "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\timer.v" into library work
+Parsing module <timer>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <timer>.
+
+Elaborating module <mod10>.
+WARNING:HDLCompiler:413 - "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\mod10.v" Line 16: Result of 32-bit expression is truncated to fit in 4-bit target.
+
+Elaborating module <mod06>.
+WARNING:HDLCompiler:413 - "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\mod06.v" Line 15: Result of 32-bit expression is truncated to fit in 4-bit target.
+
+Elaborating module <DownCounter>.
+WARNING:HDLCompiler:413 - "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\DownCounter.v" Line 20: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:1127 - "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\timer.v" Line 24: Assignment to CEO ignored, since the identifier is never used
+
+Elaborating module <DISP7SEG>.
+
+Elaborating module <bcd7seg>.
+
+Elaborating module <slowclock>.
+WARNING:HDLCompiler:413 - "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\DISP7SEG.v" Line 90: Result of 27-bit expression is truncated to fit in 26-bit target.
+
+Elaborating module <my_counter>.
+WARNING:HDLCompiler:413 - "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\DISP7SEG.v" Line 107: Result of 3-bit expression is truncated to fit in 2-bit target.
+
+Elaborating module <mux4to1>.
+
+Elaborating module <decoder2to4>.
+
+Elaborating module <onehz>.
+WARNING:HDLCompiler:413 - "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\onehz.v" Line 29: Result of 28-bit expression is truncated to fit in 27-bit target.
+WARNING:HDLCompiler:1127 - "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\timer.v" Line 29: Assignment to counter ignored, since the identifier is never used
+WARNING:HDLCompiler:634 - "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\timer.v" Line 26: Net <text_mode> does not have a driver.
+WARNING:Xst:2972 - "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\timer.v" line 29. All outputs of instance <mHz> of block <onehz> are unconnected in block <timer>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <timer>.
+    Related source file is "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\timer.v".
+INFO:Xst:3210 - "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\timer.v" line 24: Output port <CEO> of the instance <m1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\timer.v" line 29: Output port <counter> of the instance <mHz> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\timer.v" line 29: Output port <CEO> of the instance <mHz> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <text_mode> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <slow> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <med> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <fast> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <error> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <wrong> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 4-bit comparator greater for signal <PWR_1_o_min10[3]_LessThan_1_o> created at line 14
+    Found 4-bit comparator greater for signal <PWR_1_o_min1[3]_LessThan_2_o> created at line 14
+    Summary:
+	inferred   2 Comparator(s).
+Unit <timer> synthesized.
+
+Synthesizing Unit <mod10>.
+    Related source file is "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\mod10.v".
+    Found 4-bit register for signal <counter>.
+    Found 4-bit subtractor for signal <GND_2_o_GND_2_o_sub_3_OUT<3:0>> created at line 16.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   4 D-type flip-flop(s).
+Unit <mod10> synthesized.
+
+Synthesizing Unit <mod06>.
+    Related source file is "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\mod06.v".
+    Found 4-bit register for signal <counter>.
+    Found 4-bit subtractor for signal <GND_3_o_GND_3_o_sub_3_OUT<3:0>> created at line 15.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   4 D-type flip-flop(s).
+Unit <mod06> synthesized.
+
+Synthesizing Unit <DownCounter>.
+    Related source file is "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\DownCounter.v".
+    Found 4-bit register for signal <count>.
+    Found 4-bit subtractor for signal <GND_4_o_GND_4_o_sub_4_OUT<3:0>> created at line 20.
+    Found 4-bit comparator greater for signal <PWR_5_o_data[3]_LessThan_3_o> created at line 13
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   4 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <DownCounter> synthesized.
+
+Synthesizing Unit <DISP7SEG>.
+    Related source file is "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\DISP7SEG.v".
+    Summary:
+	no macro.
+Unit <DISP7SEG> synthesized.
+
+Synthesizing Unit <bcd7seg>.
+    Related source file is "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\DISP7SEG.v".
+    Found 8-bit 16-to-1 multiplexer for signal <disp> created at line 61.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <bcd7seg> synthesized.
+
+Synthesizing Unit <slowclock>.
+    Related source file is "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\DISP7SEG.v".
+    Found 1-bit register for signal <clk_out>.
+    Found 26-bit register for signal <period_count>.
+    Found 26-bit adder for signal <period_count[25]_GND_7_o_add_2_OUT> created at line 90.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  27 D-type flip-flop(s).
+Unit <slowclock> synthesized.
+
+Synthesizing Unit <my_counter>.
+    Related source file is "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\DISP7SEG.v".
+    Found 2-bit register for signal <temp>.
+    Found 2-bit adder for signal <temp[1]_GND_8_o_add_1_OUT> created at line 107.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 D-type flip-flop(s).
+Unit <my_counter> synthesized.
+
+Synthesizing Unit <mux4to1>.
+    Related source file is "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\DISP7SEG.v".
+    Found 5-bit 4-to-1 multiplexer for signal <Y> created at line 114.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <mux4to1> synthesized.
+
+Synthesizing Unit <decoder2to4>.
+    Related source file is "\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\DISP7SEG.v".
+    Found 4x4-bit Read Only RAM for signal <an>
+    Summary:
+	inferred   1 RAM(s).
+Unit <decoder2to4> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 4x4-bit single-port Read Only RAM                     : 1
+# Adders/Subtractors                                   : 6
+ 2-bit adder                                           : 1
+ 26-bit adder                                          : 1
+ 4-bit subtractor                                      : 4
+# Registers                                            : 7
+ 1-bit register                                        : 1
+ 2-bit register                                        : 1
+ 26-bit register                                       : 1
+ 4-bit register                                        : 4
+# Comparators                                          : 4
+ 4-bit comparator greater                              : 4
+# Multiplexers                                         : 4
+ 4-bit 2-to-1 multiplexer                              : 2
+ 5-bit 4-to-1 multiplexer                              : 1
+ 8-bit 16-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <DownCounter>.
+The following registers are absorbed into counter <count>: 1 register on signal <count>.
+Unit <DownCounter> synthesized (advanced).
+
+Synthesizing (advanced) Unit <decoder2to4>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_an> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 4-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <en>            |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <an>            |          |
+    -----------------------------------------------------------------------
+Unit <decoder2to4> synthesized (advanced).
+
+Synthesizing (advanced) Unit <mod06>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <mod06> synthesized (advanced).
+
+Synthesizing (advanced) Unit <mod10>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <mod10> synthesized (advanced).
+
+Synthesizing (advanced) Unit <my_counter>.
+The following registers are absorbed into counter <temp>: 1 register on signal <temp>.
+Unit <my_counter> synthesized (advanced).
+
+Synthesizing (advanced) Unit <slowclock>.
+The following registers are absorbed into counter <period_count>: 1 register on signal <period_count>.
+Unit <slowclock> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 4x4-bit single-port distributed Read Only RAM         : 1
+# Counters                                             : 6
+ 2-bit up counter                                      : 1
+ 26-bit up counter                                     : 1
+ 4-bit down counter                                    : 4
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+# Comparators                                          : 4
+ 4-bit comparator greater                              : 4
+# Multiplexers                                         : 1
+ 5-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+ERROR:Xst:528 - Multi-source in Unit <timer> on signal <reset>; this signal is connected to multiple drivers.
+Drivers are: 
+   Primary input port <reset>
+   Dangling signal <wrong> in Unit <timer> is tied to 0 by XST
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.73 secs
+ 
+--> 
+
+Total memory usage is 278896 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :   16 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+

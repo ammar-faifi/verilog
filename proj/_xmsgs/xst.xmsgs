@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\mod10.v" Line 16: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\mod06.v" Line 15: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\DownCounter.v" Line 20: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\timer.v" Line 24: Assignment to <arg fmt="%s" index="1">CEO</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\DISP7SEG.v" Line 90: Result of <arg fmt="%d" index="1">27</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">26</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\DISP7SEG.v" Line 107: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\onehz.v" Line 29: Result of <arg fmt="%d" index="1">28</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">27</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\timer.v" Line 29: Assignment to <arg fmt="%s" index="1">counter</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\timer.v" Line 26: Net &lt;<arg fmt="%s" index="1">text_mode</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\timer.v</arg>&quot; line <arg fmt="%d" index="2">29</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">mHz</arg>&gt; of block &lt;<arg fmt="%s" index="4">onehz</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">timer</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\timer.v</arg>&quot; line <arg fmt="%s" index="2">24</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">m1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\timer.v</arg>&quot; line <arg fmt="%s" index="2">29</arg>: Output port &lt;<arg fmt="%s" index="3">counter</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mHz</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\mac\macintosh hd\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\timer.v</arg>&quot; line <arg fmt="%s" index="2">29</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mHz</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">text_mode</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">slow</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">med</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">fast</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">error</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">wrong</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_an</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="error" file="Xst" num="528" delta="new" >Multi-source in Unit &lt;<arg fmt="%s" index="1">timer</arg>&gt; on signal &lt;<arg fmt="%s" index="2">reset</arg>&gt;; this signal is connected to multiple drivers.
+</msg>
+
+</messages>
+

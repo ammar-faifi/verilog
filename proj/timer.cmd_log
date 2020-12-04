@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/timer.xst" -ofn "Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/timer.syr" 

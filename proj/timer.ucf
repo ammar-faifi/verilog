@@ -1,4 +1,20 @@
 
-# PlanAhead Generated physical constraints 
 
 NET "clk" LOC = V10;
+NET "load" LOC = D9;
+NET "led" LOC = U16;
+NET "ErrorLED" LOC = V16;
+NET "CE" LOC = T12;
+
+
+# PlanAhead Generated physical constraints 
+
+NET "reset" LOC = C4;
+NET "min1[3]" LOC = T10;
+NET "min1[2]" LOC = T9;
+NET "min1[1]" LOC = V9;
+NET "min1[0]" LOC = M8;
+NET "min10[3]" LOC = N8;
+NET "min10[2]" LOC = U8;
+NET "min10[1]" LOC = V8;
+NET "min10[0]" LOC = T5;

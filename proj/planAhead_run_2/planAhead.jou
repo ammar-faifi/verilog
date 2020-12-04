@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Dec 04 23:25:20 2020
+# Process ID: 8228
+# Log file: Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/planAhead_run_2/planAhead.log
+# Journal file: Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin C4 [get_ports reset]
+endgroup
+set_property package_pin "" [get_ports [list  {min1[2]}]]
+startgroup
+set_property package_pin T10 [get_ports {min1[3]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports {min1[2]}]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports {min1[1]}]
+endgroup
+startgroup
+set_property package_pin M8 [get_ports {min1[0]}]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports {min10[3]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {min10[2]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {min10[1]}]
+endgroup
+startgroup
+set_property package_pin T5 [get_ports {min10[0]}]
+endgroup
+save_constraints
