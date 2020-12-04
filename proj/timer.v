@@ -1,5 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
+// This module is used to gather the previous modules and instantiate them. 
+//////////////////////////////////////////////////////////////////////////////////
 
 module timer(input clk, reset, load, CE, [3:0] min10, min1, output led, ErrorLED, [7:0]seg, [3:0]an);
 
@@ -22,8 +24,6 @@ module timer(input clk, reset, load, CE, [3:0] min10, min1, output led, ErrorLED
 	DownCounter m1 (clk, reset, load, CEO3, min10, CEO, D3);
 
 	DISP7SEG ssd (clk, D0, D1, D2, D3, text_mode, slow, med, fast, error, wrong, seg, an);
-
-
 
 	//this is only for FPGA Board
 	onehz mHz(clk, reset, CE, counter, clk_1hz);
