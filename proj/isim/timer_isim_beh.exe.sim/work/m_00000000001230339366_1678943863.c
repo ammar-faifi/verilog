@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/samia/Documents/verilog/proj/timer.v";
+static const char *ng0 = "//Mac/Macintosh HD/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/timer.v";
 static unsigned int ng1[] = {9U, 0U};
 static int ng2[] = {0, 0};
 static int ng3[] = {1, 0};
@@ -764,9 +764,9 @@ LAB4:    t16 = *((unsigned int *)t5);
 }
 
 
-extern void work_m_00000000003461217775_1678943863_init()
+extern void work_m_00000000001230339366_1678943863_init()
 {
 	static char *pe[] = {(void *)Cont_12_0,(void *)Cont_13_1,(void *)Cont_14_2,(void *)Cont_15_3};
-	xsi_register_didat("work_m_00000000003461217775_1678943863", "isim/timer_isim_beh.exe.sim/work/m_00000000003461217775_1678943863.didat");
+	xsi_register_didat("work_m_00000000001230339366_1678943863", "isim/timer_isim_beh.exe.sim/work/m_00000000001230339366_1678943863.didat");
 	xsi_register_executes(pe);
 }

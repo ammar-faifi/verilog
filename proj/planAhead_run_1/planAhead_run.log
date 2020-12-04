@@ -1,0 +1,128 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+Failed to create directory: 'C:\Users\???? ??????\AppData\Roaming/Xilinx/PlanAhead\14.7'
+Failed to create the shortcut directory: 'C:\Users\???? ??????\AppData\Roaming/Xilinx/PlanAhead\14.7\shortcuts'
+Failed to create the layout directory: 'C:\Users\???? ??????\AppData\Roaming/Xilinx/PlanAhead\14.7\layouts\application'
+Failed to create the commands directory: 'C:\Users\???? ??????\AppData\Roaming/Xilinx/PlanAhead\14.7\commands'
+Failed to create the layout directory: 'C:\Users\???? ??????\AppData\Roaming/Xilinx/PlanAhead\14.7\layouts\'
+source Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/pa.fromHdl.tcl
+# create_project -name proj -dir "Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/planAhead_run_1" -part xc6slx16csg324-3
+create_project: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 435.422 ; gain = 58.391
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "DISP7SEG.ucf" [current_fileset -constrset]
+Adding file 'Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/DISP7SEG.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {timeFPGA.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top timeFPGA $srcset
+# add_files [list {DISP7SEG.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx16csg324-3
+CRITICAL WARNING: [Designutils 20-742] The top module "timeFPGA" specified for this project can not be validated. The current project is using automatic hierarchy update mode, and hence a new suitable replacement top will be automatically selected. If this is not desired, please change the hierarchy update mode to one of the manual compile order modes first, and then set top to any desired value.
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/timeFPGA.v" into library work
+CRITICAL WARNING: [EDIF 20-96] Could not resolve non-primitive black box cell 'mod10' instantiated as 's0' [Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/timeFPGA.v:20]
+Resolution: File names need to match cell names: an EDIF definition will be found in mod10.edf; an HDL definition may be placed in any Verilog/VHDL file.
+CRITICAL WARNING: [EDIF 20-96] Could not resolve non-primitive black box cell 'mod06' instantiated as 's1' [Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/timeFPGA.v:21]
+Resolution: File names need to match cell names: an EDIF definition will be found in mod06.edf; an HDL definition may be placed in any Verilog/VHDL file.
+CRITICAL WARNING: [EDIF 20-96] Could not resolve non-primitive black box cell 'DownCounter' instantiated as 'm0' [Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/timeFPGA.v:24]
+Resolution: File names need to match cell names: an EDIF definition will be found in DownCounter.edf; an HDL definition may be placed in any Verilog/VHDL file.
+CRITICAL WARNING: [EDIF 20-96] Could not resolve non-primitive black box cell 'DISP7SEG' instantiated as 'ssd' [Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/timeFPGA.v:28]
+Resolution: File names need to match cell names: an EDIF definition will be found in DISP7SEG.edf; an HDL definition may be placed in any Verilog/VHDL file.
+CRITICAL WARNING: [EDIF 20-96] Could not resolve non-primitive black box cell 'onehz' instantiated as 'mHz' [Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/timeFPGA.v:31]
+Resolution: File names need to match cell names: an EDIF definition will be found in onehz.edf; an HDL definition may be placed in any Verilog/VHDL file.
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/DISP7SEG.ucf]
+Finished Parsing UCF File [Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/DISP7SEG.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 2e4d4df6
+open_rtl_design: Time (s): elapsed = 00:00:15 . Memory (MB): peak = 602.574 ; gain = 165.492
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin V10 [get_ports CE]
+endgroup
+set_property package_pin "" [get_ports [list  CE]]
+startgroup
+set_property package_pin V10 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin D9 [get_ports load]
+endgroup
+startgroup
+set_property package_pin C4 [get_ports reset]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports ErrorLED]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports LED]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {I0[3]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports {I0[2]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {I0[3]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports {I0[2]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {I0[3]}]
+endgroup
+set_property package_pin "" [get_ports [list  {I0[1]}]]
+startgroup
+set_property package_pin V9 [get_ports {I0[1]}]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports {I0[0]}]
+endgroup
+startgroup
+set_property package_pin M8 [get_ports {I0[0]}]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports {I1[3]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {I1[2]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {I1[1]}]
+endgroup
+startgroup
+set_property package_pin T8 [get_ports {I1[0]}]
+endgroup
+startgroup
+set_property package_pin T5 [get_ports {I1[0]}]
+endgroup
+save_constraints
+startgroup
+set_property package_pin T12 [get_ports CE]
+endgroup
+save_constraints
+exit
+Failed to create directory: 'C:\Users\???? ??????\AppData\Roaming/Xilinx/PlanAhead\14.7'
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+Failed to create directory: 'C:\Users\???? ??????\AppData\Roaming/Xilinx/PlanAhead\14.7'
+INFO: [Common 17-206] Exiting PlanAhead at Fri Dec 04 16:38:00 2020...
+INFO: [Common 17-83] Releasing license: PlanAhead

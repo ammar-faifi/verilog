@@ -1,47 +1,39 @@
 ISim log file
-Running: C:\Users\samia\Documents\verilog\proj\timer_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/samia/Documents/verilog/proj/timer_isim_beh.wdb 
+Running: Y:\Users\ammaralfaifi\projects\verilog\proj_201840840_06\proj\timer_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/timer_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
-WARNING: A WEBPACK license was found.
-WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
-WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
-This is a Lite version of ISim.
-WARNING: File "C:/Users/samia/Documents/verilog/proj/timer.v" Line 8.  For instance timer/m0/, width 4 of formal port LED is not equal to width 1 of actual signal STOP.
-WARNING: File "C:/Users/samia/Documents/verilog/proj/timer.v" Line 8.  For instance timer/m1/, width 4 of formal port LED is not equal to width 1 of actual signal STOP.
+This is a Full version of ISim.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
+# isim force add /timer/clk 0 -radix bin -value 1 -radix bin -time 500 ps -repeat 1 ns
+# isim force add /timer/reset 1 -radix bin -cancel 1 ns
+# isim force add /timer/load 1 -radix bin -cancel 2 ns
+# isim force add /timer/CE 1 -radix bin
+# isim force add /timer/I1 9 -radix unsigned
+# isim force add /timer/I0 9 -radix unsigned
+# run 1.00us
 # restart
 # isim force add /timer/clk 0 -radix bin -value 1 -radix bin -time 500 ps -repeat 1 ns
 # isim force add /timer/reset 1 -radix bin -cancel 1 ns
-# isim force add /timer/load 1 -radix bin -cancel 1500 ps
+# isim force add /timer/load 1 -radix bin -cancel 2 ns
 # isim force add /timer/CE 1 -radix bin
-# isim force add /timer/I1 1 -radix unsigned
-# isim force add /timer/I0 0 -radix unsigned
-# run 1.00us
+# isim force add /timer/I1 9 -radix unsigned
+# isim force add /timer/I0 9 -radix unsigned
+# run 1.00s
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
+Stopped at time : 12908057500 ps : File "//Mac/Macintosh HD/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/DownCounter.v" Line 17
+# run 100us
 # restart
-# show driver /timer/clk
-/timer/clk has no drivers.
 # isim force add /timer/clk 0 -radix bin -value 1 -radix bin -time 500 ps -repeat 1 ns
 # isim force add /timer/reset 1 -radix bin -cancel 1 ns
-# isim force add /timer/load 1 -radix bin -cancel 1500 ps
+# isim force add /timer/load 1 -radix bin -cancel 2 ns
 # isim force add /timer/CE 1 -radix bin
-# isim force add /timer/I1 11 -radix unsigned
+# isim force add /timer/I1 13 -radix unsigned
 # isim force add /timer/I0 1 -radix unsigned
-# run 1.00us
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-# restart
-# isim force add /timer/clk 0 -radix bin -value 1 -radix bin -time 500 ps -repeat 1 ns
-# isim force add /timer/reset 1 -radix bin -cancel 1 ns
-# isim force add /timer/load 1 -radix bin -cancel 1500 ps
-# isim force add /timer/CE 1 -radix bin
-# isim force add /timer/I1 0 -radix unsigned
-# isim force add /timer/I0 0 -radix unsigned
-# run 1.00us
+# run 10.00us
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.

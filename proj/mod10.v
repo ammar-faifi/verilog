@@ -15,5 +15,5 @@ module mod10 (input clk, reset, CE, LED, output reg [3:0] counter, output CEO);
 		else if (CE)
 			counter <= counter - 1;
 		end
-
+		
 endmodule 

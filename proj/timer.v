@@ -24,10 +24,5 @@ module timer(input clk, reset, load, CE, [3:0] I1, I0, output LED, ErrorLED, [7:
 
 
 	DISP7SEG ssd (clk, D0, D1, D2, D3, text_mode, slow, med, fast, error, wrong, seg, an);
-
-
-
-	//this is only for FPGA Board
-	onehz mHz(clk, reset, CE, counter, clk_1hz);
 	
 endmodule 

@@ -27,6 +27,7 @@
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mod10_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="timer_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="timer_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="timer_isim_beh.wdb"/>
@@ -38,7 +39,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1607024385" xil_pn:in_ck="-807325324849103038" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1607024385">
+    <transform xil_pn:end_ts="1607090548" xil_pn:in_ck="-8912014870421148461" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1607090548">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="DISP7SEG.v"/>
@@ -46,6 +47,7 @@
       <outfile xil_pn:name="mod06.v"/>
       <outfile xil_pn:name="mod10.v"/>
       <outfile xil_pn:name="onehz.v"/>
+      <outfile xil_pn:name="timeFPGA.v"/>
       <outfile xil_pn:name="timer.v"/>
     </transform>
     <transform xil_pn:end_ts="1607019883" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-6903106749164288136" xil_pn:start_ts="1607019883">
@@ -56,11 +58,11 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1607017677" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="7553947854601597157" xil_pn:start_ts="1607017677">
+    <transform xil_pn:end_ts="1607090125" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="7553947854601597157" xil_pn:start_ts="1607090125">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1607024385" xil_pn:in_ck="-807325324849103038" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1607024385">
+    <transform xil_pn:end_ts="1607090548" xil_pn:in_ck="-8912014870421148461" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1607090548">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="DISP7SEG.v"/>
@@ -68,9 +70,10 @@
       <outfile xil_pn:name="mod06.v"/>
       <outfile xil_pn:name="mod10.v"/>
       <outfile xil_pn:name="onehz.v"/>
+      <outfile xil_pn:name="timeFPGA.v"/>
       <outfile xil_pn:name="timer.v"/>
     </transform>
-    <transform xil_pn:end_ts="1607024389" xil_pn:in_ck="-807325324849103038" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2286605230079663151" xil_pn:start_ts="1607024385">
+    <transform xil_pn:end_ts="1607090554" xil_pn:in_ck="-8912014870421148461" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2286605230079663151" xil_pn:start_ts="1607090548">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -80,12 +83,16 @@
       <outfile xil_pn:name="timer_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1607024389" xil_pn:in_ck="5726763813808215968" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3609691740853922098" xil_pn:start_ts="1607024389">
+    <transform xil_pn:end_ts="1607090554" xil_pn:in_ck="5726763813808215968" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3609691740853922098" xil_pn:start_ts="1607090554">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="timer_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1607088369" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1607088369">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
   </transforms>
 

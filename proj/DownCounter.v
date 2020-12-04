@@ -6,7 +6,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module DownCounter(input clk, reset, load, CE, [3:0] data, LED, output CEO, reg error, reg [3:0]count);
+module DownCounter(input clk, reset, load, CE, [3:0] data, input LED, output CEO, reg error, reg [3:0]count);
 
 	assign CEO = (count == 0) && CE;
 	
