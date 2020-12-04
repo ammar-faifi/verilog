@@ -1,3 +1,4 @@
+verilog work "onehz.v"
 verilog work "mod10.v"
 verilog work "mod06.v"
 verilog work "DownCounter.v"
