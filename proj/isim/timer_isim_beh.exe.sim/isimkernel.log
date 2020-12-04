@@ -2,9 +2,9 @@ Command line:
    timer_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  65102
+     -socket  55220
 
-Fri Dec 04 20:53:49 2020
+Fri Dec 04 22:42:50 2020
 
 
- Elaboration Time: 0.09375 sec
+ Elaboration Time: 0.328125 sec

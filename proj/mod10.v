@@ -1,12 +1,12 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 
-module mod10 (input clk, reset, CE, stop, output reg [3:0] counter, output CEO);
+module mod10 (input clk, reset, CE, output reg [3:0] counter, output CEO);
 
 	assign CEO = (counter == 0) && CE;
 
 	always @(posedge clk) begin
-		if(reset || stop)
+		if(reset)
 			counter <= 0;
 		else if (CEO)
 			counter <= 9;

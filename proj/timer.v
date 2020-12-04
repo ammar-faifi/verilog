@@ -8,21 +8,18 @@ module timer(input clk, reset, load, CE, [3:0] min10, min1, output led, ErrorLED
 	wire STOP, CEO1, CEO2, CEO3;
 	wire clk_1hz;
 	
-	assign S1 = (&(~min1))? ( |min10? 4'b1001 : 0) : (min1-1);
-	assign S2 = (&(~min1))? (min10-1) : min10;
-
-	assign ErrorLED = (min10 > 4'b1001) && (min1 > 4'b1001);
-	assign led = CEO & ~ErrorLED;
-	assign STOP = CEO | ErrorLED;
+	assign reset = 0;
+	assign ErrorLED = (min10 > 4'b1001) || (min1 > 4'b1001);
+	assign led = ~STOP & ~ErrorLED;
+	assign STOP = (D3 || D2 || D1 || D0) && ~reset && ~ErrorLED;
 	
 	//seconds, with no inputs
-	mod10 s0 (clk, reset, CE, STOP, D0, CEO1);
-	mod06 s1 (clk, reset, CEO1, STOP, D1, CEO2);
+	mod10 s0 (clk, reset, CE & STOP, D0, CEO1);
+	mod06 s1 (clk, reset, CEO1, D1, CEO2);
 	
 	//minuites, it can take an inputs 
-	DownCounter m0 (clk, reset, load, CEO2, min1, STOP, CEO3, D2);
-	DownCounter m1 (clk, reset, load, CEO3, min10  ,STOP, CEO, D3);
-
+	DownCounter m0 (clk, reset, load, CEO2, min1,  CEO3, D2);
+	DownCounter m1 (clk, reset, load, CEO3, min10, CEO, D3);
 
 	DISP7SEG ssd (clk, D0, D1, D2, D3, text_mode, slow, med, fast, error, wrong, seg, an);
 
