@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Dec 04 23:13:49 2020
+# Process ID: 1936
+# Log file: Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/planAhead_run_1/planAhead.log
+# Journal file: Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin V10 [get_ports clk]
+endgroup
+save_constraints
