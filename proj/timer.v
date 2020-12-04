@@ -9,6 +9,8 @@ module timer(input clk, reset, load, CE, [3:0] I1, I0, output LED, ErrorLED, [7:
 	wire zero3, zero2;
 	wire clk_1hz;
 	
+	//Default
+	assign reset = 0;
 	assign S2 = (&(~I0))? ( |I1? 4'b1001 : 0) : (I0-1);
 	assign S3 = (&(~I0))? (I1-1) : I1;
 	assign ErrorLED = Error1 | Error2;

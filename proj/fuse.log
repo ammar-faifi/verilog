@@ -23,9 +23,8 @@ Compiling module DISP7SEG
 Compiling module timer
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
 WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\timer_isim_beh.exe.sim\libPortability.dll".
 Compiled 11 Verilog Units
 Built simulation executable Y:/Users/ammaralfaifi/projects/verilog/proj_201840840_06/proj/timer_isim_beh.exe
-Fuse Memory Usage: 27628 KB
-Fuse CPU Usage: 608 ms
+Fuse Memory Usage: 28320 KB
+Fuse CPU Usage: 859 ms
